@@ -52,7 +52,8 @@
         margin: 0 2px;
     }
     .header-img {
-        display: flex;
+        /*Need to fix width in mobile layout*/
+
 
     }
     .main {
@@ -83,8 +84,10 @@
         color: black;
     }
     nav {
-        display: inline-block;
-        margin: .5em;
+        display: flex;
+        margin: 2.5em .5em;
+        float: right;
+
     }
     .nav-links {
     }
@@ -101,18 +104,23 @@
     .icon {
         margin: 0 2px;
     }
-    .header-img {
-        display: flex;
+    .header-img img {
+        width: 80%;
+        max-height: 500px;
 
     }
     .main {
         display: inline-block;
-        width: 300px;
+        width: 50%;
+
     }
     .sub-section {
         display: inline-block;
         width: 300px;
+        font-style: italic;
+        margin-right: 1.5em;
     }
+
     .footer {
         display: flex;
         flex-direction: row;
@@ -125,7 +133,7 @@
         justify-content: left;
         align-items: center;
         font-size: 3em;
-        margin-right: 3em;
+
     }
 
     .hidden-on-desktop {
