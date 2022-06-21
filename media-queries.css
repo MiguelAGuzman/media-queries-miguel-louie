@@ -6,10 +6,7 @@
     body {
         display: flex;
         flex-direction: column;
-        /*justify-content: center;*/
         align-items: center;
-
-        /*max-width: 300px;*/
     }
 
     .alert-info {
@@ -21,6 +18,10 @@
         width: 300px;
         border: 2px lightgray solid;
 
+    }
+    .a1 {
+        text-decoration: none;
+        color: black;
     }
 
     .nav-links {
