@@ -6,7 +6,7 @@
     body {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /*justify-content: center;*/
         align-items: center;
     }
 
@@ -28,18 +28,23 @@
         /*height: 3em;*/
         /*width: 20em;*/
 
-        list-style: none;
     }
     .nav-item {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        margin: 5px;
+        margin: 5px 0;
         background-color: lightgray;
         height: 2.5em;
         width: 15em;
+    }
+    ul {
+        list-style: none;
+        display: flex;
 
+    }
+    .icon {
+        margin: 0 2px;
     }
     .header-img {
         display: flex;
@@ -57,5 +62,7 @@
         flex-direction: row;
         justify-content: space-between;
         font-size: 10px;
+
+
     }
 }
